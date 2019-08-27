@@ -3,6 +3,9 @@
 <head>
 	<title>Vacanza home</title>
 	<link rel="stylesheet"  href="style1.css">
+	<script src="https://kit.fontawesome.com/2a1482e439.js"></script>
+
+
 <style>
 	body{
 		background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../static/background.png");
@@ -18,11 +21,11 @@
 	
 	<!-----------------------------------------------NAVIGATION------------------------------------------------------------------------------>
 	<nav>
-		<span style="font-size: 25px;position: fixed;float: right;color: #4b0082"><strong> &nbsp;&nbsp;CSI </strong></span>
-		<div class="navi">
-			<a href="" id="navEle"> <strong> Home </strong></a>
-			<a href="#mainDiv"> <strong> Rounds </strong></a>
-			<a href=""> <strong> Quiz </strong></a>
+		<a href="https://csiakgec.in/"><span style="font-size: 25px;position: fixed;float: right;color: #4b0082"><strong> &nbsp;&nbsp;CSI </strong></span></a>
+		<div id="navi">
+			<a href="index.html" class="navLink"> <strong> Home </strong></a>
+			<a href="#mainDiv" class="navLink"> <strong> Rounds </strong></a>
+			<a href="index1.html" class="navLink"> <strong> Quiz </strong></a>
 		</div>
 		
 	</nav>
@@ -121,26 +124,26 @@
 			<!-------------------------ROUND-1------------------------------>
 
 			<br><br>
-			<div class="mainRoundBox1" >
+			<div class="mainRoundBox" >
 
 				<!----Image Section-->
 
-				<div class="roundImage1">
+				<div class="roundImage" style="float: right;">
 					 <img src="../static/Home-Round1Img.jpg">
 				</div>
 
 				<!-----Text Section---->
 
-				<div>
+				<div style="padding: 20px;">
 					<h2> ROUND 1</h2>
-					<hr class="roundHr"><br>
-<pre>Round 1 comprises of 4 domains from which participants have to select at least 2 domains and can choose 
-maximum of 4 domains for more points. The more domain you opt for,the more you score.
+					<hr class="roundHr">
+<p>Round 1 comprises of 4 domains from which participants have to select at least 2 domains and can choose 
+maximum of 4 domains for more points. The more domain you opt for,the more you score.</p>
 					
-<strong>The four domains are:</strong>
-Vintage Photography  |  Leaf Collage  |  Origami Art  |  Face Mask Art<pre>
+<p><strong>The four domains are:</strong><br>
+Vintage Photography  |  Leaf Collage  |  Origami Art  |  Face Mask Art<p>
 					
-					<button type="button" class="roundButton1"> RULES</button>
+					<button type="button" class="roundButton"> RULES</button>
 			
 				</div>
 				 
@@ -150,26 +153,25 @@ Vintage Photography  |  Leaf Collage  |  Origami Art  |  Face Mask Art<pre>
 
 			<!-------------------------ROUND-2------------------------------>
 		
-			<div class="mainRoundBox2">
+			<div class="mainRoundBox">
 				
 				<!----Image Section-->
 
-				<div class="roundImage2">
-					 <img src="../static/Home-Round2Img.jpg">
+				<div class="roundImage">
+					 <img  style="float:left;" src="../static/Home-Round2Img.jpg">
 				</div>
 
 				<!-----Text Section---->
 
-				<div>
+				<div style="padding: 20px;">
 					<h2> ROUND 2</h2>
-					<hr class="roundHr2"><br>
-<pre>Test your knowledge just by answering some basic questions and gain points easily.Round 2 contains quiz
-questions based on popular TV series and sports.
-					
-<pre><b>The field are as follows:</b>
-Football  |  Stranger Things  |  Cricket  |  F.r.i.e.n.d.s.	</pre>
+					<hr class="roundHr2">
+<p>Test your knowledge just by answering some basic questions and gain points easily.Round 2 contains quiz
+questions based on popular TV series and sports.</p>					
+<p><b>The field are as follows:</b><br>
+Football  |  Stranger Things  |  Cricket  |  F.r.i.e.n.d.s.	</p>
 
-					<button type="button" class="roundButton2"> RULES</button>
+					<button type="button" class="roundButton"> RULES</button>
 			
 				</div>
 				 
@@ -180,24 +182,24 @@ Football  |  Stranger Things  |  Cricket  |  F.r.i.e.n.d.s.	</pre>
 
 			<!-------------------------ROUND-3------------------------------>
 		
-			<div class="mainRoundBox3">
+			<div class="mainRoundBox">
 
 				<!----Image Section-->
 
-				<div class="roundImage3">
+				<div class="roundImage" style="float: right;">
 					 <img src="../static/Home-Round3Img.jpg">
 				</div>
 
 				<!-----Text Section---->
 
-				<div>
+				<div style="paddding:20px;">
 					<h2> ROUND 3</h2>
 					<hr class="roundHr"><br>
-<pre>The final round consists of making an interesting and astonishing magic trick video which might force people 
-to say “How did you do that!”. The best and the most surprising video will be selected as the winner.</pre>
+<p>The final round consists of making an interesting and astonishing magic trick video which might force people 
+to say “How did you do that!”. The best and the most surprising video will be selected as the winner.</p>
 	
 
-					<button type="button" class="roundButton3"> RULES </button>
+					<button type="button" class="roundButton"> RULES </button>
 				</div>
 
 
@@ -217,18 +219,26 @@ to say “How did you do that!”. The best and the most surprising video will b
 
 	<!-------------------------------------------------------------FOOTER-------------------------------------------------------------------->
 	<footer>
-		<div  id="footerBkg">
+		<div  id="footerBg">
 			<div id="footerUpper">
-				<a href="https://www.youtube.com/channel/UCrxGbgXygspoAIk5zhOClVQ" target="_blank"> <img src="../static/yt3.png" alt="Youtube"> </a>
-				<a href="https://www.instagram.com/csi_akgec/" target="_blank"><img src="../static/insta1.jpg" alt="Instagram"></a>
-				<a href="https://www.facebook.com/csi.akg/" target="_blank"><img src="../static/fb3.png" alt="Facebook"></a>
-				<hr style="margin-right:82.5%;border-top: 1px dotted white ;">
+				<a href="https://www.youtube.com/channel/UCrxGbgXygspoAIk5zhOClVQ" target="_blank">
+					<i class="fab fa-youtube fa-camera"></i>
+				</a>
+				<a href="https://www.instagram.com/csi_akgec/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/csi.akg/" target="_blank">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+
+				<hr style="margin-right:40%;border-top: 1px dotted white ;">
 			</div>
-		</div>
-		<div style="background-color: #006400 ; margin-top:0px">	
-			<div style="margin-left: 50%;">
-				<p><span style="color: #ffffff;"><strong> © CSI:AKGEC 2018 </strong></span></p>
-			</div>
+		
+			<div style="background-color: #006400 ; margin-top:0px;margin-bottom: 0px;">	
+				<div style="margin-left: 50%;">
+					<p><span style="color: #ffffff;"><strong>  &copy; CSI:AKGEC 2018 </strong></span></p>
+				</div>
+			</div>	
 		</div>
 	</footer>
 

@@ -1,0 +1,133 @@
+
+.navLink{	
+	padding-left:10px;
+	padding-right:10px;
+	color:#000000 ;
+	text-decoration: none;
+	font-size: 20px;
+	font-style:italic; 
+}
+
+#navi{
+	margin-left:80%;  
+}	
+
+#headerImg{
+	vertical-align: middle;
+	margin-left: 42%;
+	margin-bottom: 20px;
+	margin-top:50px; 
+}
+
+#headerText{
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.headerButton{
+	margin-left: 40%;
+	margin-top: 150px;
+}
+
+.headerButton button{
+	border-width: 2px;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 25px;
+	border-radius:10px;
+	padding: 10px;
+	background-color: transparent;
+	color:#ffffff;
+}
+
+.headerButton button:hover{
+	background-color: inherit;
+	opacity:0.5;
+}
+
+p{
+	text-decoration-color: #000000;
+	font-size: 18px;
+	font-family: "georgia";
+}
+
+#mainDiv{
+	margin-top: 40px;
+	background-color: #DCDCDC;
+
+}
+
+.mainRoundBox{
+	border-width: 4px;
+	border-style: solid;
+	border-color: #000000;
+	padding: 0px;
+	background-color: #ffffff;	
+	margin: 70px;
+	height: 300px;
+	max-height:300px;
+	max-width: 100%;
+}
+
+.roundImage img{
+	width: 300px;
+	height:100%;
+	
+}
+
+.roundHr{
+	float: left;
+	width:75%; 
+}
+
+.roundHr2{
+	margin-left: 40px;
+	margin-right: 20px;
+	width:70%;  
+}
+
+.roundButton{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	text-align:centre;
+	float: left;
+	margin-left: 30px;
+	vertical-align: middle;
+	margin: 10px;
+	background-color: #ffffff;
+	font-size:17.5px;
+	text-decoration-color: #5562Bf;
+	border-radius:3px;
+	padding: 8px;
+	color:#008000;
+}
+
+.roundButton:hover{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#footerUpper{
+	margin-left: 45%;
+	margin-right:40%;
+}
+
+
+#footerUpper i{
+	color:black;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 4px;
+	margin-right: 10px;
+	opacity: 100%;
+}
+#footerBg{
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-image:url("../static/footerImg.png");
+	 width:100%;
+	 height: 100px;
+}
