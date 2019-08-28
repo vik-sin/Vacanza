@@ -1,23 +1,38 @@
 
-.navLink{	
-	padding-left:10px;
-	padding-right:10px;
-	color:#000000 ;
-	text-decoration: none;
-	font-size: 20px;
-	font-style:italic; 
+#navi {
+	float: top;
+	margin-top: 10px;
+	margin-left: 80%;
 }
 
-#navi{
-	margin-left:80%;  
-}	
+#navi a{
+	font-size: 25px;
+	margin:10px;
+	font-style: italic;
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration: none; 
+}
+
+#navi a : hover{
+	transform: translateY(100px);
+
+}
 
 #headerImg{
 	vertical-align: middle;
 	margin-left: 42%;
 	margin-bottom: 20px;
 	margin-top:50px; 
+
 }
+
+#headerImg : hover{
+	position: absolute;
+	scale:(1.2,1.2);
+	transform: rotate(1080deg);
+}
+
 
 #headerText{
 	margin-left: 25%;
@@ -66,26 +81,52 @@ p{
 	padding: 0px;
 	background-color: #ffffff;	
 	margin: 70px;
-	height: 300px;
-	max-height:300px;
+	height: 350px;
+	max-height:400px;
 	max-width: 100%;
+	box-shadow: 2px 3px #004d00;
 }
 
-.roundImage img{
+.textSection13{
+	padding:20px; 
+	float: left; 
+	margin-right: 30%;
+	position: absolute;
+	padding-left: 20px;
+}
+
+.textSection2{
+	padding: 20px;
+	float: right; 
+	margin-left: 30%;
+	position: absolute;
+	padding-right:20px; 
+}
+
+.roundImage13{
+	float: right;
+	width:300px;
+	height: 350px;
+}
+
+.roundImage13 img{
+	position: absolute;
+	height: 350px;
 	width: 300px;
-	height:100%;
-	
 }
 
-.roundHr{
+.roundImage2{
 	float: left;
-	width:75%; 
+	width:300px;
+	height: 350px;
+	max-width: 350px;
 }
 
-.roundHr2{
-	margin-left: 40px;
-	margin-right: 20px;
-	width:70%;  
+.roundImage2 img{
+	position: absolute;
+	height: 350px;
+	width: 300px;
+	clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 }
 
 .roundButton{
@@ -117,13 +158,14 @@ p{
 
 
 #footerUpper i{
-	color:black;
+	color:white;
 	font-size: 30px;
 	margin-top: 15px;
 	margin-left: 4px;
 	margin-right: 10px;
 	opacity: 100%;
 }
+
 #footerBg{
 	margin-bottom: 0px;
 	background-repeat: no-repeat;
