@@ -1,11 +1,12 @@
 
-#navi {
+
+.navi {
 	float: top;
 	margin-top: 10px;
 	margin-left: 80%;
 }
 
-#navi a{
+.navi a{
 	font-size: 25px;
 	margin:10px;
 	font-style: italic;
@@ -14,9 +15,8 @@
 	text-decoration: none; 
 }
 
-#navi a : hover{
-	transform: translateY(100px);
-
+.navLink:hover {
+	color: black;
 }
 
 #headerImg{
@@ -24,13 +24,11 @@
 	margin-left: 42%;
 	margin-bottom: 20px;
 	margin-top:50px; 
-
 }
 
-#headerImg : hover{
-	position: absolute;
-	scale:(1.2,1.2);
-	transform: rotate(1080deg);
+.logo:hover {
+	transform: rotate(900deg);
+	transition: 1.5s;
 }
 
 
@@ -82,9 +80,9 @@ p{
 	background-color: #ffffff;	
 	margin: 70px;
 	height: 350px;
-	max-height:400px;
+	max-height:40%;
 	max-width: 100%;
-	box-shadow: 2px 3px #004d00;
+	box-shadow: 4px 6px darkgrey;
 }
 
 .textSection13{
@@ -146,21 +144,19 @@ p{
 	color:#008000;
 }
 
-.roundButton:hover{
+.roundButton:hover {
 	font-size: 20px;
 	font-weight: 700;
 }
 
 #footerUpper{
 	margin-left: 45%;
-	margin-right:40%;
-}
-
+	margin-right:40%;}
 
 #footerUpper i{
 	color:white;
 	font-size: 30px;
-	margin-top: 15px;
+	margin-top: 25%;
 	margin-left: 4px;
 	margin-right: 10px;
 	opacity: 100%;
@@ -171,5 +167,16 @@ p{
 	background-repeat: no-repeat;
 	background-image:url("../static/footerImg.png");
 	 width:100%;
-	 height: 100px;
+	 height: 100px; 
+	animation: viksin 8s linear alternate infinite;
+	overflow: hidden;
+}
+
+@keyframes viksin{
+	0%{transform:scale(1);}
+	100%{transform:scale(1.3);}
+}
+
+footer{
+	overflow: hidden;
 }
