@@ -1,6 +1,6 @@
 
 #img{
-	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../static/background.png");
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("background.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 	    background-attachment: fixed;
